@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
         IsDone = false;
 
 
-        Debug.Log("My rotation was " + transform.rotation + " " + name, this);
+        //Debug.Log("My rotation was " + transform.rotation + " " + name, this);
 
         _rigidbody.transform.position = Vector3.zero;
         _rigidbody.transform.rotation = Quaternion.identity;

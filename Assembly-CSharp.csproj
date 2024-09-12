@@ -61,18 +61,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Survivor\Scripts\MobSettings.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\XPContainerConfig.cs" />
     <Compile Include="Assets\_Survivor\TimeDebug.cs" />
     <Compile Include="Assets\_Survivor\Scripts\LevelConfig.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\XPContainer.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroMotorSettings.cs" />
     <Compile Include="Assets\_Survivor\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HealthUI.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\XPOrbSpawner.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroSpawnPoint.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroDamager.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Health.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Hero.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\XPDrop.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroMotor.cs" />
     <Compile Include="Assets\_Survivor\Scripts\GameOverScreen.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Bullet.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\Magnet.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Mob.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Weapon.cs" />
     <Compile Include="Assets\_Survivor\Scripts\Game.cs" />

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Health : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class Health : MonoBehaviour
 
 
     public float CurrentHealth;
+    [SerializeField]
     public float MaxHealth;
 
 
@@ -25,11 +27,17 @@ public class Health : MonoBehaviour
     {
         CurrentHealth = MaxHealth;
     }
-    
+
     void FixedUpdate()
     {
         _lastCountPerFrame = _countPerFrame;
         _countPerFrame = 0;
+    }
+
+    public void UpdateMaxHealth(float value)
+    {
+        MaxHealth = value;
+        CurrentHealth = value;
     }
 
     public void TakeDamage(float dmg)
@@ -49,5 +57,5 @@ public class Health : MonoBehaviour
 
         _countPerFrame += 1;
     }
-    
+
 }

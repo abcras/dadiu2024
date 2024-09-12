@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] float _speed = 20;
     [SerializeField] float _duration = 2;
+    [SerializeField] float _damage = 2.5f;
 
 
     float _elapsedTime;
@@ -24,6 +25,10 @@ public class Bullet : MonoBehaviour
     {
         _elapsedTime = 0;
         IsDone = false;
+        _rigidbody.MovePosition(Vector3.zero);
+        _rigidbody.MoveRotation(Quaternion.identity);
+        //_rigidbody.transform.position = Vector3.zero;
+        transform.position = Vector3.zero;
     }
 
 
@@ -40,10 +45,10 @@ public class Bullet : MonoBehaviour
     {
         if (collider.TryGetComponent<Mob>(out var mob))
         {
-            IsDone = true;
             HitMob?.Invoke();
+            if (!IsDone)
+                mob.Health.TakeDamage(_damage);
+            IsDone = true;
         }
-
     }
-
 }

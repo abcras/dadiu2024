@@ -5,4 +5,5 @@ public class MobSettings : ScriptableObject
 {
     public float MoveSpeed;
     public float Acceleration;
+    public float MaxHealth;
 }

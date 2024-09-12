@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Health))]
 [RequireComponent(typeof(CharacterController))]
 public class Mob : MonoBehaviour
 {
@@ -15,10 +16,22 @@ public class Mob : MonoBehaviour
 
     Hero _target;
 
+    [SerializeField] Health _health;
+
+    public Health Health => _health;
+
     void Start()
     {
         _controller = GetComponent<CharacterController>();
         _target = Object.FindAnyObjectByType<Hero>();
+
+        _health.MaxHealth = _settings.MaxHealth;
+
+        _health.Died.AddListener(() =>
+        {
+
+            Destroy(gameObject);
+        });
     }
 
     void OnEnable()

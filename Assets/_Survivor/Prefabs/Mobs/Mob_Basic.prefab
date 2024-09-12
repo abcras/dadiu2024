@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 855051818720152882}
   - component: {fileID: 7645382250310602408}
   - component: {fileID: 5042037141190084969}
+  - component: {fileID: 4234781031755343544}
   m_Layer: 0
   m_Name: Mob_Basic
   m_TagString: Untagged
@@ -153,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settings: {fileID: 11400000, guid: f871ff7cf20a547239b1cb744350d7bd, type: 2}
+  _health: {fileID: 4234781031755343544}
 --- !u!143 &5042037141190084969
 CharacterController:
   m_ObjectHideFlags: 0
@@ -179,6 +181,26 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &4234781031755343544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042281181445868253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f034f92179a54158a98b215df7c715f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Died:
+    m_PersistentCalls:
+      m_Calls: []
+  DamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  CurrentHealth: 0
+  MaxHealth: 10
 --- !u!1 &7648085261439119996
 GameObject:
   m_ObjectHideFlags: 0

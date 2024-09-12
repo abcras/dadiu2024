@@ -37,18 +37,23 @@ public class Weapon : MonoBehaviour
 
             var currentPosition = transform.position;
 
-            var mob = Mob.Actives[_enemyIndex % Mob.Actives.Count];
-
             _enemyIndex += 1;
 
             //foreach (var mob in Mob.Actives)
+            if (Mob.Actives.Count != 0)
             {
+                Mob mob = Mob.Actives[_enemyIndex % Mob.Actives.Count];
 
                 if (_pooledBullets.Count == 0)
                     return;
 
                 var instance = _pooledBullets[_pooledBullets.Count - 1];
                 _pooledBullets.RemoveAt(_pooledBullets.Count - 1);
+
+                if(instance.transform.position != Vector3.zero)
+                {
+                    Debug.Log("Reused a bullet " + name, instance);
+                }
 
                 instance.gameObject.SetActive(true);
                 instance.ResetState();
@@ -58,25 +63,34 @@ public class Weapon : MonoBehaviour
                 direction.Normalize();
 
                 instance.transform.rotation = Quaternion.LookRotation(direction);
-                instance.transform.position = currentPosition + direction;
+                instance.transform.position = currentPosition;
+                instance.transform.position += direction;
+
                 _activeBullets.Add(instance);
             }
         }
 
-        foreach (var  bullet in _activeBullets)
+        foreach (var bullet in _activeBullets)
         {
             bullet.UpdateState();
         }
+
+
+        List<Bullet> temp = new List<Bullet>();
 
         for (int i = _activeBullets.Count - 1; i >= 0; i--)
         {
             if (_activeBullets[i].IsDone)
             {
                 var bullet = _activeBullets[i];
-                bullet.gameObject.SetActive(false);
+                //bullet.ResetState();
                 _pooledBullets.Add(bullet);
+                //temp.Add(bullet);
+                bullet.gameObject.SetActive(false);
                 _activeBullets.RemoveAt(i);
             }
         }
+        //_activeBullets.RemoveAll(b => b.IsDone);
+        //_activeBullets.RemoveAll(b => temp.Contains(b));
     }
 }

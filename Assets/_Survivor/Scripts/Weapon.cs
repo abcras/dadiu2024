@@ -59,6 +59,12 @@ public class Weapon : MonoBehaviour
                 instance.ResetState();
 
                 Vector3 direction = (mob.transform.position - currentPosition);
+
+                if (direction == Vector3.zero)
+                {
+                    Debug.Log("direction is zero");
+                }
+
                 direction.y = 0;
                 direction.Normalize();
 

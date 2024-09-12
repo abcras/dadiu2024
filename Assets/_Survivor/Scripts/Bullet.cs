@@ -25,10 +25,17 @@ public class Bullet : MonoBehaviour
     {
         _elapsedTime = 0;
         IsDone = false;
-        _rigidbody.MovePosition(Vector3.zero);
-        _rigidbody.MoveRotation(Quaternion.identity);
+
+
+        Debug.Log("My rotation was " + transform.rotation + " " + name, this);
+
+        _rigidbody.transform.position = Vector3.zero;
+        _rigidbody.transform.rotation = Quaternion.identity;
+        /*_rigidbody.MovePosition(Vector3.zero);
+        _rigidbody.MoveRotation(Quaternion.identity);*/
         //_rigidbody.transform.position = Vector3.zero;
         transform.position = Vector3.zero;
+        transform.rotation = Quaternion.identity;
     }
 
 
@@ -36,9 +43,18 @@ public class Bullet : MonoBehaviour
     {
         _elapsedTime += Time.deltaTime;
         if (_elapsedTime > _duration)
+        {
             IsDone = true;
+            //Debug.Log("A bullet expired " + name, this);
+        }
 
-        _rigidbody.MovePosition(transform.position + transform.forward * _speed * Time.deltaTime);
+       /* if( _rigidbody.position == Vector3.zero )
+        {
+            Debug.Log("Test");
+        }*/
+
+        _rigidbody.position = transform.position + transform.forward * _speed * Time.deltaTime;
+        //_rigidbody.MovePosition(transform.position + transform.forward * _speed * Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider collider)

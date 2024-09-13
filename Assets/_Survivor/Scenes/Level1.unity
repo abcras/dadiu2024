@@ -2555,12 +2555,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4519379455909085926, guid: 6ece5ca978fdbde4da7cca69a82c1f60,
         type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
-        type: 0}
-    - target: {fileID: 4519379455909085926, guid: 6ece5ca978fdbde4da7cca69a82c1f60,
-        type: 3}
       propertyPath: m_Name
       value: MobSpawner
       objectReference: {fileID: 0}

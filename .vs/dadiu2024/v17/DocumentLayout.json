@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Code\\dadiu2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\magnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\magnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\xpcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\xpcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|c:\\users\\user\\code\\dadiu2024\\assets\\_survivor\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|c:\\users\\user\\code\\dadiu2024\\assets\\_survivor\\scripts\\mobspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\mobspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\mobspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\xpcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\xpcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\mobsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\herodamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\magnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\magnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|C:\\Users\\User\\Code\\dadiu2024\\assets\\_survivor\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C09BC05-51DF-9B9B-437A-DFF29861A160}|Assembly-CSharp.csproj|solutionrelative:assets\\_survivor\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,35 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "Magnet.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Magnet.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\Magnet.cs",
               "ToolTip": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Magnet.cs",
               "RelativeToolTip": "Assets\\_Survivor\\Scripts\\Magnet.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBwAAABMAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-09-13T11:44:20.203Z"
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwBkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:44:20.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "XPDrop.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\XPDrop.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\XPDrop.cs",
               "ToolTip": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\XPDrop.cs",
               "RelativeToolTip": "Assets\\_Survivor\\Scripts\\XPDrop.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAvwDYAAAAmAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-09-13T11:44:20.205Z"
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:44:20.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LevelConfig.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\LevelConfig.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\LevelConfig.cs",
@@ -118,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Level.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Level.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\Level.cs",
@@ -142,19 +144,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "XPContainer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\XPContainer.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\XPContainer.cs",
               "ToolTip": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\XPContainer.cs",
               "RelativeToolTip": "Assets\\_Survivor\\Scripts\\XPContainer.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAawBsAAAA9AAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-09-13T11:44:20.212Z"
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawBsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:44:20.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MobSettings.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\MobSettings.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\MobSettings.cs",
@@ -178,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Hero.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\Hero.cs",
@@ -202,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "HeroDamager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\HeroDamager.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\HeroDamager.cs",
@@ -214,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Mob.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Mob.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\Mob.cs",
@@ -226,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\Weapon.cs",
@@ -239,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "XPOrbSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\XPOrbSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\XPOrbSpawner.cs",
@@ -251,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MainHeroHealthUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\MainHeroHealthUI.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\MainHeroHealthUI.cs",
@@ -263,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "HealthUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\HealthUI.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\HealthUI.cs",
@@ -275,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MobSpawner.cs",
               "DocumentMoniker": "C:\\Users\\User\\Code\\dadiu2024\\Assets\\_Survivor\\Scripts\\MobSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\_Survivor\\Scripts\\MobSpawner.cs",
@@ -283,8 +286,7 @@
               "RelativeToolTip": "Assets\\_Survivor\\Scripts\\MobSpawner.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:48:04.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T11:48:04.908Z"
             }
           ]
         }

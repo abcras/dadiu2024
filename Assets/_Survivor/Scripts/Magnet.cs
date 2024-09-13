@@ -23,6 +23,8 @@ public class Magnet : MonoBehaviour
         detectionSphere.radius = PullRadius;
     }
 
+    //DO enable shennaigans
+
     // Update is called once per frame
     void FixedUpdate()
     {

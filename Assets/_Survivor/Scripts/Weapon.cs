@@ -27,7 +27,7 @@ public class Weapon : MonoBehaviour
 
     int _enemyIndex;
 
-    void Update()
+    void FixedUpdate()
     {
         _timeSinceLastFire += Time.deltaTime;
 

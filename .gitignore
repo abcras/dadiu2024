@@ -5,3 +5,5 @@ UserSettings/
 .vscode/
 .DS_Store
 Logs/
+*.vsidx
+/.vs/dadiu2024/v17

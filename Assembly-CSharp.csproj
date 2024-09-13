@@ -67,6 +67,7 @@
     <Compile Include="Assets\_Survivor\Scripts\XPContainer.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroMotorSettings.cs" />
     <Compile Include="Assets\_Survivor\Scripts\LevelLoader.cs" />
+    <Compile Include="Assets\_Survivor\Scripts\MobSpawner.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HealthUI.cs" />
     <Compile Include="Assets\_Survivor\Scripts\XPOrbSpawner.cs" />
     <Compile Include="Assets\_Survivor\Scripts\HeroSpawnPoint.cs" />
